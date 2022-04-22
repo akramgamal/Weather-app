@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <header id="home" class="">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <div class="navbar-brand d-flex text-white">
+                    <a href="#"><i class="fas fa-cloud"></i></a>
+                    <p class="one">Weather</p>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <button class="nav-link active" aria-current="page" href="#">Home</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-outline-info" href="#">News</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-outline-info" href="#">Live cameras</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-outline-info" href="#">Photos</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link btn btn-outline-info" href="#">contact</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div
+            class=" home-content d-flex align-items-center justify-content-center flex-wrap align-content-center mt-5">
+            
+            <div class="find w-75 mt-5">
+                <input name="country" class="form-control py-3" placeholder="Find your location..." type="text"
+                    id="search">
+                <button id="mainBtn" class="btn btn-info text-white">Find</button>
+            </div>
+            <div class="container w-75 py-5">
+                <div class="row" id="content">
+
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer class="pb-5" id="contacts">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-8">
+                    <div class="sub w-75">
+                        <input name="email" class="form-control py-3" placeholder="Enter your email to subscriobe"
+                            type="email" id="email">
+                        <button id="subscribe" class="btn btn-info text-white">Subscibe</button>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-lg-1">
+                    <div class="icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-pinterest"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-md-8">
+                    <p class="copy">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+
+            </div>
+
+        </div>
+        
+
+    </footer>
+
+
+    <script src="main.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

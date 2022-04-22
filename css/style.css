@@ -1,0 +1,157 @@
+.navbar {
+    background: #1e202b !important;
+}
+
+.navbar-brand a {
+    color: #009ad8 !important;
+    font-size: 4rem !important;
+}
+
+#home .one {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#home .one::after {
+    content: "tagline goes here";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 0.9rem;
+}
+
+#home .active {
+    color: #009ad8 !important;
+    background-color: transparent;
+    border: 1px solid #009ad8 !important;
+}
+
+#home .nav-link {
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 5px 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+#home .nav-link:hover {
+    background-color: transparent;
+    border: 1px solid #8b8b8b;
+    color: #009ad8;
+}
+
+#home {
+    background-image: url("../images/one.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#home .home-content {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-content input, #contacts input {
+    background-color: #1e202b !important;
+    border-color: transparent !important;
+    border-radius: 20px;
+}
+
+.find {
+    position: relative;
+}
+
+input {
+    color: white !important;
+}
+
+.home-content button {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.day, #contacts {
+    background: rgb(44, 45, 49);
+}
+
+.day-sp {
+    background: rgb(30, 32, 43);
+}
+
+.weather {
+    background: rgb(59, 60, 66);
+}
+
+.weather-sp {
+    background: rgb(45, 47, 63);
+}
+
+p, h6, span, .home-content i, h5 {
+    color: rgb(191, 193, 200);
+}
+
+.cond {
+    color: #009ad8;
+}
+
+h2 {
+    color: white;
+    font-size: 7rem !important;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+h3 {
+    color: white;
+}
+
+.weather h6 {
+    padding-top: 10px;
+}
+
+.weather-sp h3, .weather h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/******************************************************/
+
+.sub {
+    position: relative;
+}
+
+#subscribe {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+#email {}
+.icons i{
+    cursor: pointer;
+    color:#009ad8;
+    background-color:#1e202b ;
+    padding: 15px !important;
+    font-size: 1rem !important;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.icons i:hover{
+    color:white;
+    background-color: #009ad8;
+}
+.copy{
+    color: rgb(191, 193, 200);
+}
+/* @media screen and (max-width:768px){
+    .home-content{
+      
+    }
+} */
